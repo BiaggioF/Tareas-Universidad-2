@@ -20,7 +20,7 @@ public class Galgos extends Thread {
             Thread.sleep(tiempoCarrera);
             System.out.println(nombre + " ha terminado la carrera.");
             
-            // Asegurar acceso seguro a la lista compartida
+           
             synchronized (ordenLlegada) {
                 ordenLlegada.add(nombre);  
             }
