@@ -56,9 +56,12 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    private var resetCurrentNumber = false
+
     private fun appendNumber(number: String) {
-        if (currentNumber == "0" && number == "0") {
-            return
+        if (resetCurrentNumber) {
+            currentNumber = number
+            resetCurrentNumber = false
         } else if (currentNumber == "0" && number != ".") {
             currentNumber = number
         } else {
@@ -96,6 +99,7 @@ class MainActivity : AppCompatActivity() {
             binding.tvResult.text = result.toString()
             currentNumber = result.toString()
             operator = ""
+            resetCurrentNumber = true // Indicamos que debe reiniciarse en el próximo input
         }
     }
 
