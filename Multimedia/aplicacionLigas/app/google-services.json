@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222412735054",
+    "project_id": "ligasbiaggio",
+    "storage_bucket": "ligasbiaggio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222412735054:android:55fa0c046f8fa64a23791f",
+        "android_client_info": {
+          "package_name": "com.example.aplicacionligas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCluJv3Ar_Jzwsv2X7ObYii8YUFDQ43fiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

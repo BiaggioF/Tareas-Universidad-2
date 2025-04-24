@@ -1,0 +1,13 @@
+<!-- res/values/themes.xml -->
+<resources>
+    <!-- Tema base SIN ActionBar integrado -->
+    <style name="Theme.AplicacionLigas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colores primarios/secundarios, etc. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- ... cualquier otro item que necesites ... -->
+    </style>
+</resources>
